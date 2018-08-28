@@ -37,10 +37,10 @@ Now we need to install once
     cd -
     
     
-One last thing, we need the cern CA bundle to verify the WBM certificate. This is not strictly necessary if you are working on lxplus or the certificate is already installed on your machine but its just easier to have a consistant setup for lxplus/non lxplus
+One last thing, we need the cern CA bundle to verify the WBM certificate. This is not strictly necessary if you are working on lxplus or the certificate is already installed on your machine but its just easier to have a consistant setup for lxplus
      
     cd wbmtools
-    scp $USER@lxplus.cern.ch:/etc/ssl/certs/ca-bundle.crt ./
+    cp /etc/ssl/certs/ca-bundle.crt ./
     cd -
     
     
